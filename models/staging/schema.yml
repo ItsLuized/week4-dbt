@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: fabled-rookery-353221
+    schema: dezoomcamp_2023
+
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
